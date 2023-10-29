@@ -1,3 +1,70 @@
-#children1 {
-  background-color: red;
+.header {
+  display: flex;
+  justify-content: space-between;
+  border: 2px solid black;
+}
+
+.nav-items > ul {
+  display: flex;
+}
+
+.nav-items > ul > li {
+  padding: 2px;
+  margin: 8px;
+  list-style: none;
+}
+
+.res-card {
+  margin: 10px;
+  width: 270px;
+  background-color: #f0f0f0;
+}
+
+.res-image {
+  width: 250px;
+  height: 250px;
+  margin: 5px;
+}
+
+.res-details {
+  margin: 2px;
+  padding: 5px;
+}
+
+.res-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.shimmer-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.shimmer-card {
+  margin: 10px;
+  height: 350px;
+  width: 270px;
+  background-color: #f0f0f0;
+}
+
+.login-button {
+  margin: 2px 5px;
+  padding: 5px;
+  cursor: pointer;
+}
+
+.filter-button {
+  margin: 2px 3px;
+  padding: 2px;
+}
+
+.search-button {
+  margin: 2px 3px;
+  padding: 2px;
+}
+
+.search-bar {
+  margin: 2px 3px;
+  padding: 2px;
 }
